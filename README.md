@@ -11,12 +11,6 @@ The goal is to send a string from the client to the server without relying on an
 - Uses `SIGUSR1` and `SIGUSR2` signals for communication.
 - Includes error handling and ensures no memory leaks.
 
-## File Structure
-├── client.c # Client program to send messages to the server. 
-├── server.c # Server program to receive and display messages. 
-├── functions.c # Utility functions for printing and handling data. 
-├── Makefile # Makefile to compile the project. 
-└── minitalk.h # Header file with function declarations.
 
 ## Compilation
 To compile the project, run: make
